@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/workout-wizard/:path*",
+        "destination": "https://workout-wizard-five.vercel.app/:path*"
+      }
+    ]
+  }
