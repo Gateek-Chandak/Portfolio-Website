@@ -1,9 +1,15 @@
-import Image from "next/image";
+import HeroPage from "./components/Hero";
+import ProjectsSection from "./components/Projects";
+import TechStackSection from "./components/TechStack";
+import ResumeSection from "./components/Resume";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      hellooooo
+    <main className="w-full h-screen snap-mandatory snap-y overflow-y-scroll scroll-smooth">
+      <HeroPage />
+      <ProjectsSection />
+      <TechStackSection />
+      <ResumeSection />
     </main>
   );
 }
