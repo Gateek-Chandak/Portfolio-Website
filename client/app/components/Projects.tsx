@@ -5,7 +5,7 @@ const ProjectsSection = () => {
     return ( 
         <div className="min-h-screen flex flex-col items-center w-full pt-24 pb-12 snap-start scroll-container" id="projects">
             <h1 className="text-zinc-200 text-2xl text-center">Projects</h1>
-            <p className="text-orange-300 text-sm mt-6">some cool stuff i've built</p>
+            <p className="text-orange-300 text-sm mt-6">some cool stuff i&aposve built</p>
             <div className="w-11/12 mt-10 grid grid-cols-3 gap-6 z-0 h-dvh">
                 <Card className="border border-zinc-800 bg-zinc-600 transform transition duration-500 hover:scale-105 hover:border-zinc-500" as={Link} href="https://github.com/Gateek-Chandak/Arena_Warrior">
                     <CardHeader>
