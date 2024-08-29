@@ -8,8 +8,7 @@ const HeroPage = () => {
             <Header />
             <h1 className="px-40 mt-52 text-2xl text-zinc-200 mb-14">
                 Gateek Chandak - <span className="bg-gradient-to-r from-gradient-left via-gradient-middle to-gradient-right text-transparent bg-clip-text">Software Developer.</span>
-            </h1>
-
+            </h1>   
             <div className="px-40 flex flex-col items-center gap-4 w-9/12 text-zinc-300 text-lg">
                 <p className="text-md">currently...</p>
                 <p className="">

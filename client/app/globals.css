@@ -11,6 +11,5 @@
 }
 
 .scroll-container {
-  scroll-padding-top: 1px;
   scroll-snap-stop: always;
 }
