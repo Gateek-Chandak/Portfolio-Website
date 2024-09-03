@@ -8,7 +8,7 @@ export default function Home() {
     <main className="w-full h-screen snap-mandatory snap-y overflow-y-scroll scroll-smooth">
       <HeroPage />
       <ProjectsSection />
-      <SkillsSection />
+      {/* <SkillsSection /> */}
       <ResumeSection />
     </main>
   );

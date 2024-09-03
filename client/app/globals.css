@@ -10,6 +10,18 @@
   @apply bg-zinc-900
 }
 
+p, div, h1, span {
+  background-color: transparent;
+}
+
 .scroll-container {
   scroll-snap-stop: always;
 }
+
+.dbg {
+  background-image: url("../public/bg2.png");
+}
+
+.bgdiamonds {
+  background-image: url("../public/diamonds.png");
+} 
