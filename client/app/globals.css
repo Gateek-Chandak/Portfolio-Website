@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   padding: 0;
   margin: 0;
@@ -18,10 +19,6 @@ p, div, h1, span {
   scroll-snap-stop: always;
 }
 
-.dbg {
-  background-image: url("../public/bg2.png");
-}
-
 .bgdiamonds {
-  background-image: url("../public/diamonds.png");
+  background-image: url('../public/diamonds.png');
 } 
