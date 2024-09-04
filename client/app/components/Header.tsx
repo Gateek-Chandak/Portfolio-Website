@@ -1,6 +1,6 @@
 const Header = () => {
     return ( 
-        <div className="bgdiamonds flex flex-row gap-5 text-zinc-400 px-14 pt-7 pb-5 ml-auto fixed w-full border-b border-b-zinc-800 z-50">
+        <div className="bgdiamonds bg-zinc-900 flex flex-row gap-5 text-zinc-400 px-14 pt-7 pb-5 ml-auto fixed w-full border-b border-b-zinc-800 z-10">
              <a href="#home" className="bg-transparent">
                 <h1 className="transition ease-in-out duration-300 hover:text-gradient-middle">Home</h1>
             </a>
