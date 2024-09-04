@@ -19,7 +19,7 @@ const ChangingText = () => {
       });
 
     return ( 
-        <h1 className='lowercase text-4xl mt-7 mb-20 bg-gradient-to-r from-gradient-left via-gradient-middle to-gradient-right text-transparent bg-clip-text'>{texts[currIndex]}.</h1>
+        <h1 className='lowercase text-4xl mt-7 mb-7 bg-gradient-to-r from-gradient-left via-gradient-middle to-gradient-right text-transparent bg-clip-text h-20'>{texts[currIndex]}.</h1>
      );
 }
  
