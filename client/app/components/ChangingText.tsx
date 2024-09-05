@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const ChangingText = () => {
 
-    const texts = ['Software Developer', 'Full-Stack Developer', 'Software Engineer']
+    const texts = ['Software Developer', 'Full-Stack Developer', 'Software Engineer', 'Golfer', 'AI Enthousiast']
 
     const [currIndex, setCurrIndex] = useState<number>(0)
 
