@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const ChangingText = () => {
 
-    const texts = ['Software Developer', 'Full-Stack Developer', 'Golfer', 'Software Engineer', 'Marvel Fan']
+    const texts = ['Software Developer', 'Full-Stack Developer', 'Software Engineer', 'Marvel Fan', 'UI/UX Designer']
 
     const [currIndex, setCurrIndex] = useState<number>(0)
 
@@ -13,7 +13,7 @@ const ChangingText = () => {
        
         const intervalId = setInterval(() => {
           setCurrIndex((prevIndex) => (prevIndex + 1) % texts.length);
-        }, 850)
+        }, 1000)
     
         return () => clearInterval(intervalId)
       });
