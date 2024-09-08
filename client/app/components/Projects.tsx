@@ -86,7 +86,7 @@ const ProjectsSection = () => {
                         <p className="text-zinc-300 text-center text-sm w-full">fast paced wave-based-game inspired by Super Smash Bros</p>
                     </CardFooter>
                 </Card>
-                <Card className="border bg-zinc-800 bgdiamonds transform transition duration-500 hover:scale-110 hover:z-10 border-red-900 hover:border-red-400 h-fit" as={Link} href="https://github.com/Gateek-Chandak/MonsterDash">
+                <Card className="border bg-zinc-800 bgdiamonds transform transition duration-500 hover:scale-110 z-10 border-red-900 hover:border-red-400 h-fit" as={Link} href="https://github.com/Gateek-Chandak/MonsterDash">
                     <CardHeader>
                         <h1 className="text-white text-center w-full">Monster Dash</h1>
                         <p className="text-zinc-400 text-xs">2020</p>
@@ -103,7 +103,7 @@ const ProjectsSection = () => {
                         <p className="text-zinc-300 text-center text-sm w-full">endless 2D runner game with beautiful graphics and animations</p>
                     </CardFooter>
                 </Card>
-                <Card className="border bg-zinc-800 bgdiamonds transform transition duration-500 hover:scale-110 hover:z-10 border-yellow-900 hover:border-yellow-400 h-fit" as={Link} href="https://github.com/Gateek-Chandak/Colour_Switch_Remak">
+                <Card className="border bg-zinc-800 bgdiamonds transform transition duration-500 hover:scale-110 z-10 border-yellow-900 hover:border-yellow-400 h-fit" as={Link} href="https://github.com/Gateek-Chandak/Colour_Switch_Remak">
                     <CardHeader>
                         <h1 className="text-white text-center w-full">Colour Switch Remake</h1>
                         <p className="text-zinc-400 text-xs">2019</p>
