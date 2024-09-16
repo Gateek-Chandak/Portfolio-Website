@@ -6,12 +6,12 @@ import Link from "next/link";
 
 const HeroPage = () => {
     return ( 
-            <div className="flex min-h-dvh max-h-fit flex-col items-center w-full snap-start scroll-container bgdiamonds" id="home">
+            <div className="flex min-h-dvh max-h-fit flex-col items-center w-full snap-start scroll-container bgdiamonds z-40" id="home">
                 <ParticleAnimation />
                 <Header />
-                <h1 className="z-50 text-center px-5 mt-36 sm:text-5xl text-4xl text-zinc-100">Gateek Chandak</h1>
+                <h1 className="z-40 text-center px-5 mt-36 sm:text-5xl text-4xl text-zinc-100">Gateek Chandak</h1>
                 <ChangingText /> 
-                <div className="z-50 px-5 text-center flex flex-col items-center gap-4 w-9/12 text-zinc-300 text-lg">
+                <div className="z-40 px-5 text-center flex flex-col items-center gap-4 w-9/12 text-zinc-300 text-lg">
                     <p className="text-md">currently...</p>
                     <p className="">
                         <span className="font-bold">Studying </span><span className="font-bold text-indigo-400">Computer Science</span> and <span className="font-bold text-indigo-400">Finance</span> @ <span className="font-bold">University of Waterloo</span>.

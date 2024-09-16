@@ -7,7 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   @apply bg-zinc-900
 }
 
@@ -21,7 +21,6 @@ p, div, h1, span {
 
 .bgdiamonds {
   background-image: url('../public/diamonds.png');
-  z-index: 50;
 } 
 
 .content--canvas {
