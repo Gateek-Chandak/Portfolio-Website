@@ -19,7 +19,7 @@ const HeroPage = () => {
                     <p>
                     <span className="font-bold">Developing</span> software to help the UW student community @ <span className="font-bold text-indigo-400">UW Code Labs</span>
                     </p>
-                    <p className="m-8 text-zinc-100">Looking for <span className="font-bold">Winter 2025 </span>internships.</p>
+                    <p className="m-8 text-zinc-100">Incoming @ <a href="https://www.infonancial.com/"><span className="font-bold text-teal-300 hover:underline">Infonancial Solutions </span></a>Winter 2025</p>
 
                     <div className="flex flex-row justify-center w-full gap-5 p-6">
                     <Link href="https://www.linkedin.com/in/gateek-chandak" target="_blank" className="text-zinc-600 transition ease-in-out duration-300 hover:text-blue-400">

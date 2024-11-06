@@ -10,9 +10,9 @@ const Header = () => {
             {/* <a href="#skills" className="bg-transparent">
                 <h1 className="transition ease-in-out duration-300 hover:text-gradient-middle">Skills</h1>
             </a> */}
-            <a href="#resume" className="bg-transparent">
+            {/* <a href="#resume" className="bg-transparent">
                 <h1 className="transition ease-in-out duration-300 hover:text-orange-400">Resume</h1>
-            </a>
+            </a> */}
         </div>
      );
 }
